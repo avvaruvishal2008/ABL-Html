@@ -1,0 +1,147 @@
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Shopping</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+            background-color: #fff8e7;
+        }
+
+        header {
+            background-color: #6a1b9a;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav {
+            background-color: #ff7043;
+            padding: 12px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 10px;
+            text-decoration: none;
+        }
+
+        .banner {
+            background-color: #80deea;
+            color: #004d40;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h2 {
+            color: #6a1b9a;
+            text-align: center;
+        }
+
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            padding: 20px;
+        }
+
+        .card {
+            background-color: #ffffff;
+            padding: 15px;
+            width: 200px;
+            text-align: center;
+            border: 2px solid #ffb74d;
+            border-radius: 8px;
+        }
+
+        .card h3 {
+            color: #00897b;
+        }
+
+        .price {
+            color: #2e7d32;
+            font-weight: bold;
+        }
+
+        .discount {
+            color: #d32f2f;
+        }
+
+        .btn {
+            background-color: #3949ab;
+            color: white;
+            padding: 8px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        footer {
+            background-color: #263238;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        @media (max-width: 500px) {
+            .card {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>ShopEasy</h1>
+        <p>Online Shopping Website</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#products">Products</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="banner" id="home">
+        <h2>Big Sale! Up to 50% OFF</h2>
+        <p>Shop your favourite products today.</p>
+    </div>
+
+    <h2 id="products">Our Products</h2>
+
+    <div class="products">
+
+        <div class="card">
+            <h3>Headphones</h3>
+            <p>Category: Electronics</p>
+            <p>Rating: ⭐⭐⭐⭐</p>
+            <p class="price">Price: ₹999</p>
+            <p class="discount">20% OFF</p>
+            <a href="#" class="btn">Buy Now</a>
+        </div>
+
+        <div class="card">
+            <h3>Smart Watch</h3>
+            <p>Category: Accessories</p>
+            <p>Rating: ⭐⭐⭐⭐⭐</p>
+            <p class="price">Price: ₹1499</p>
+            <p class="discount">30% OFF</p>
+            <a href="#" class="btn">Buy Now</a>
+        </div>
+
+    </div>
+
+    <footer id="contact">
+        <p>Contact: support@shopeasy.com</p>
+        <p>Copyright &copy; 2026 ShopEasy</p>
+    </footer>
+
+</body>
+</html>
+```
